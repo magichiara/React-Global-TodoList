@@ -1,0 +1,45 @@
+.InputForm {
+  padding: 1rem;
+  width: 100%;
+  background-color: rgba(250, 128, 114, 0.657);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h2 {
+    color: white;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+  }
+
+  form {
+    display: flex;
+    width: 300px;
+    gap: 0.5rem;
+
+    input {
+      font-size: 1rem;
+      flex-grow: 1;
+      border: none;
+      background-color: transparent;
+      border-bottom: 1px solid white;
+      outline: none;
+      color: white;
+    }
+
+    ::placeholder {
+      color: white;
+    }
+
+    button {
+      background-color: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      color: white;
+      font-size: 2.3rem;
+      cursor: pointer;
+    }
+  }
+}
